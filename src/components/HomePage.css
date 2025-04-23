@@ -1,0 +1,127 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0a0a2a;
+  color: white;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px 20px;
+}
+
+.logo img {
+  width: 70px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.logout-btn {
+  background: red;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Content */
+.content {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Ensure the carousel takes the full width */
+.carousel-container {
+  width: 100vw; /* Full width of the screen */
+  height: 60vh; /* Adjust height to fit your needs */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Remove padding and ensure images fully display */
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+}
+
+/* Adjust the image size and add gap between the images */
+.slick-slide img {
+  width: 33.3vw; /* Adjust image width to fit 3 images within the view */
+  height: 50vh; /* Adjust height as per your requirement */
+  object-fit: cover; /* Ensures the full image is shown without distortion */
+  border: none;
+}
+
+/* Add gap between the images in the carousel */
+.slick-slide {
+  padding: 0 10px; /* Adds gap between images */
+}
+
+/* Dots Styling */
+.slick-dots {
+  position: absolute;
+  bottom: 100px; /* Position dots 10px below the images */
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  background-color: transparent;
+  border: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.slick-dots li.slick-active button {
+  background-color: red; /* Change active dot color */
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}

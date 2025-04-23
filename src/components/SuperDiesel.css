@@ -1,0 +1,133 @@
+/* Main container styling */
+.superdiesel-container {
+  background-color: #06132a; /* Dark background */
+  color: white; /* White text */
+  min-height: 100vh; /* Full height */
+  padding: 20px;
+  text-align: center; /* Center align the content */
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white; /* White background for navbar */
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+/* Logo styling */
+.logo img {
+  height: 50px; /* Logo height */
+}
+
+/* Navigation links styling */
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px; /* Space between links */
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold; /* Bold text */
+}
+
+.logout-btn {
+  background: red;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Details card styling */
+.details-card {
+  background: #1c1c1c; /* Darker background for card */
+  padding: 20px;
+  border-radius: 12px; /* Rounded corners */
+  max-width: 800px; /* Limit width */
+  margin: 0 auto; /* Center the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+/* Title styling */
+.title {
+  background-color: #2c3e50; /* A diesel-themed dark blue header */
+  color: white;
+  padding: 15px;
+  font-size: 28px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Pump section styling */
+.pump-section {
+  background-color: #222;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.pump-section h2 {
+  background-color: #444;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+/* Form label styling */
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+/* Input field styling */
+input {
+  width: 100%;
+  padding: 8px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Total sale styling */
+.total {
+  font-size: 32px; /* Larger font */
+  color: #3498db; /* Diesel blue text */
+  margin-top: 20px;
+}
+
+/* Button styling */
+.octane92-btn,
+.petrol95-btn {
+  background-color: #f39c12; /* Orange button */
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer; /* Pointer cursor */
+  transition: background 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for buttons */
+.octane92-btn:hover,
+.petrol95-btn:hover {
+  background-color: #e67e22; /* Darker orange on hover */
+}
+
+/* Button spacing */
+.octane92-btn {
+  margin-bottom: 10px;
+}

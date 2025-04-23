@@ -1,0 +1,82 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0a0a2a;
+  color: white;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px 20px;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.logout-btn {
+  background: red;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Content */
+.content {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Carousel */
+.carousel {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.carousel img {
+  width: 150px;
+  border-radius: 8px;
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
