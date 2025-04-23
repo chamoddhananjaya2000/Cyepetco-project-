@@ -18,7 +18,7 @@ const SuperDiesel = () => {
           <li><a href="#">Income & Expenses</a></li>
           <li><Link to="/superdiesel">Daily Details</Link></li>
           <li><a href="#">Payment</a></li>
-          <li><a href="#">Bowser Details</a></li>
+          <li><Link to="/BowserDetails">Bowser Details</Link></li>
           <li><a href="#">Summary</a></li>
         </ul>
         <button className="logout-btn">Logout</button>
@@ -57,10 +57,10 @@ const SuperDiesel = () => {
           <button className="petrol95-btn">Petrol 95</button>
         </Link><br/><br/><br/>
 
-        {/* Super Diesel Button */}
-        <Link to="/superdiesel">
-          <button className="SuperDiesel-btn">Super Diesel</button>
-        </Link>
+        {/* Navigate to Diesel */}
+                <Link to="/Diesel">
+                  <button className="diesel-btn">Lanka Auto Diesel</button><br/><br/>
+                </Link>
 
       </div>
     </div>

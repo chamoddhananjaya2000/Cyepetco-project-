@@ -18,7 +18,7 @@ const Petrol95 = () => {
           <li><a href="#">Income & Expenses</a></li>
           <li><Link to="/petrol95">Daily Details</Link></li>
           <li><a href="#">Payment</a></li>
-          <li><a href="#">Bowser Details</a></li>
+          <li><Link to="/BowserDetails">Bowser Details</Link></li>
           <li><a href="#">Summary</a></li>
         </ul>
         <button className="logout-btn">Logout</button>
@@ -51,6 +51,11 @@ const Petrol95 = () => {
         <Link to="/Petrol92">
           <button className="octane92-btn">Octane 92 Petrol</button><br/><br/>
           </Link>
+
+          {/* Navigate to Diesel */}
+                  <Link to="/Diesel">
+                    <button className="diesel-btn">Lanka Auto Diesel</button><br/><br/>
+                  </Link>
 
         {/* Super Diesel Button */}
         <Link to="/SuperDiesel">

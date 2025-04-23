@@ -74,6 +74,8 @@
   margin: 20px 0;
   border-radius: 8px;
   text-align: left;
+  max-width: 500px;          /* Optional: Limit width */
+  width: 100%;               /* Make it responsive */
 }
 
 .pump-section h2 {
@@ -81,6 +83,7 @@
   padding: 10px;
   margin-bottom: 15px;
   border-radius: 5px;
+  
 }
 
 /* Form label styling */
@@ -109,6 +112,20 @@ input {
 }
 
 /* Button styling */
+.diesel-btn {
+  background-color: #f39c12; /* Diesel blue button */
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer; /* Pointer cursor */
+  transition: background 0.3s ease; /* Smooth hover effect */
+}
+/* Hover effect for buttons */    
+.diesel-btn:hover {
+  background-color: #e67e22; /* Darker blue on hover */
+}
 .octane92-btn,
 .petrol95-btn {
   background-color: #f39c12; /* Orange button */

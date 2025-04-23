@@ -39,7 +39,7 @@ const HomePage = () => {
           <li><a href="#">Income & Expenses</a></li>
           <li><Link to="/petrol95">Daily Details</Link></li>
           <li><a href="#">Payment</a></li>
-          <li><a href="#">Bowser Details</a></li>
+          <li><Link to="/BowserDetails">Bowser Details</Link></li>
           <li><a href="#">Summary</a></li>
         </ul>
         <button className="logout-btn">Logout</button>
@@ -61,13 +61,13 @@ const HomePage = () => {
         </div>
 
         <div className="buttons">
-          <Link to="/petrol95">
+         
             <button className="btn">Daily Records</button><br/>
             <button className="btn">Payment</button><br/>
             <button className="btn">Bowser Details</button><br/>
             <button className="btn">Income & Expenses</button><br/>
             <button className="btn">Summary Records</button><br/>
-          </Link>
+        
         </div>
       </div>
     </div>
